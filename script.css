@@ -1,0 +1,112 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: linear-gradient(rgba(0, 0, 255, 0.395), rgb(0, 0, 0));
+}
+
+*{
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.title{
+    background-color: rgba(54, 109, 192, 0.395);
+    font-size: 4vh;
+    text-align: center;
+    color:rgb(255, 255, 255);
+    margin-bottom: 2.5vh;
+    margin-left:-4vw;
+    text-decoration: dotted;
+}
+
+.container{
+    background-color: rgba(0, 0, 0, 0.203);
+    color: white;
+    width: 60vw;
+    height: 35vh;
+    font-size: 3.5vh;
+    text-align: start;
+    padding-left: 2vw;
+}
+
+input[type=text]{
+    width: 25vw;
+}
+
+input[type=button], input[type=reset]
+{
+    background-color:blue;
+    border:none;
+    border-radius: 1vh;
+    color:white;
+}
+
+.btn{
+    margin-top:7vh;
+    width:15vw;
+    height: 3vh;
+    margin-left: 0.3rem;
+}
+
+.buttons :hover{
+    opacity: 0.9;
+    cursor: pointer;
+}
+
+@media (min-width:768px) {
+    .container{
+        width: 35vw;
+        font-size: 3vh;
+        padding-left: 4vw;
+    }
+
+    input[type=text]{
+        width: 5w;
+    }
+
+    .btn{
+        width:7vw;
+        margin-top: 5vh;
+    }
+
+}
+
+@media (min-width:1024px){
+    .title{
+        font-size: 5vh;
+    }
+
+    .container{
+        height: 45vh;
+        font-size: 4vh;
+    }
+
+    .btn{
+        height: 3vh;
+        font-size: 2vh;
+    }
+
+    .buttons{
+        padding-left: 1vw;
+    }
+}
+
+@media (min-width:1440px) {
+
+    .title{
+        margin-left: -1.5vw;
+    }
+
+    .container{
+        width: 28vw;
+        padding-left: 1.5vw;
+    }
+
+    .buttons{
+        padding-top: 3vh;
+    }
+}
