@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="gih linda">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <title>Mês</title>
+</head>
+<body>
+    <form>
+    <section class="container">
+        <div>
+            <h1 class="title">Exibe o mês:</h1>
+            <div class="txtvalor">
+                <label for="txtvalor">Informe o valor correspondente ao mês:</label>
+                <input type="text" id="txtvalor"/>
+            </div>
+            <div class="result">
+                <label for="txtresultado">O mês é:</label>
+                <input type="text" id="txtresultado" disabled/>
+            </div>
+            <div class="buttons">
+                <input class="btn" type="button" onClick="exibir()" value="Exibir"/>
+                <input class="btn" type="reset" value="Limpar"/>
+            </div>
+        </div>
+    </section>
+    </form>
+</body>
+</html>
